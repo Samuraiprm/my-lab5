@@ -1,0 +1,78 @@
+body {
+    background-color: #f8f9fa; /* Светлый фон */
+    font-family: 'Arial', sans-serif; /* Простой и читаемый шрифт */
+  }
+  
+  h1 {
+    font-weight: bold;
+    color: #343a40; /* Тёмно-серый цвет заголовков */
+  }
+  
+  .card {
+    border: 1px solid #dee2e6; /* Лёгкая обводка для карточек */
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  
+  textarea {
+    resize: none; /* Отключение изменения размера текстового поля */
+  }
+  
+  #result {
+    min-height: 50px; /* Минимальная высота блока результата */
+    white-space: pre-wrap; /* Сохранение переноса строк */
+    word-wrap: break-word; /* Перенос длинных слов */
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+  }
+  
+  textarea,
+  input[type="number"] {
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .card h4 {
+    margin-bottom: 16px;
+  }
+  
+  .form-check-label {
+    font-size: 14px;
+  }
+  
+  #cipherForm {
+    margin-top: 8px;
+  }
+  
+  .container {
+    max-width: 900px; /* Установка ширины контейнера */
+    margin: 0 auto; /* Центровка */
+    padding: 15px;
+  }
+  
+  .d-grid .btn {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .border {
+    font-family: 'Courier New', Courier, monospace;
+  }
